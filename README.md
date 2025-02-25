@@ -90,5 +90,5 @@ jobs:
         with:
           app-name: 'tech0-gen9-step32-webapp-frontend'
           slot-name: 'Production'
-          package: ./deploy #4
+          package: node-app.zip    
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_718598C9C5AF48328C5F64B41696FD40 }}
